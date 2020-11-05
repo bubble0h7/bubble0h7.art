@@ -7,14 +7,15 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
+                background-color: #464647;
+                color: #f0f0f0;
+                font-family: 'Short Stack', cursive;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
@@ -44,12 +45,13 @@
                 text-align: center;
             }
 
-            .title {
+            h1 {
+                font-family: 'DM Mono', monospace;
                 font-size: 84px;
             }
 
             .links > a {
-                color: #636b6f;
+                color: #f0f0f0;
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;
@@ -80,19 +82,14 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
+                <h1>bubble0h7</h1>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{route('shop')}}">Shop</a>
+                    <a href="{{route('portfolio')}}">Portfolio</a>
+                    <a href="https://www.instagram.com/bubble0h7_art/" target="_blank">Instagram</a>
+                    <a href="https://twitter.com/bubble0h7_art" target="_blank">Twitter</a>
+                    <a href="https://www.redbubble.com/people/bubble0h7" target="_blank">Redbubble</a>
                 </div>
             </div>
         </div>

@@ -14,9 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('links');
+});
+Route::get('/links', function () {
+    return view('links');
 });
 
 Auth::routes();
 
+Route::get('/shop', 'ShopController@index')->name('shop');
+Route::get('/portfolio', 'PortfolioController@index')->name('portfolio');
 Route::get('/home', 'HomeController@index')->name('home');
