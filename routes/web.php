@@ -53,5 +53,3 @@ Route::get('/shop/faq', function () {
     return view('shop.faq');
 })->name('shop.faq');
 
-Route::get('/portfolio', 'PortfolioController@index')->name('portfolio');
-Route::get('/dashboard', 'AdminController@index')->name('admin.dashboard');
