@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>bubble0h7.art</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
-
-        <!-- Styles -->
-        <link href="{{ asset('css/main.css') }}" rel="stylesheet">
-    </head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+            <meta name="description" content="Online store by bubble0h7_art">
+            <meta name="keywords" content="artist, illustrator, nz, prints, stickers, magnets, mousepads">
+        
+            <title>bubble0h7.art</title>
+            <link rel="shortcut icon" type="image/png" href="{{ asset('img/favicon.png') }}"/>
+        
+            <!-- Fonts -->
+            <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+        
+            <!-- Styles -->
+            <link href="{{ asset('css/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
+            <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+        </head>
     <body>
         <div class="content">
             <div class="row">
