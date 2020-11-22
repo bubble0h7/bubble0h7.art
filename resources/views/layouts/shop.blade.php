@@ -4,7 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+        <meta name="description" content="Online store by bubble0h7_art">
+        <meta name="keywords" content="artist, illustrator, nz, prints, stickers, magnets, mousepads">
+
         <title>bubble0h7.art</title>
+        <link rel="shortcut icon" type="image/png" href="{{ asset('img/favicon.png') }}"/>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap" rel="stylesheet">
@@ -37,7 +41,7 @@
                             <li>
                                 <div id="my-search-39913012"></div>
                                 <div>
-                                    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?39913012&data_platform=code&data_date=2020-11-07" charset="utf-8"></script>
+                                    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?39913012&data_platform=code&data_date=2020-11-22" charset="utf-8"></script>
                                     <script type="text/javascript"> xSearch("id=my-search-39913012"); </script>
                                 </div>
                             </li>
@@ -51,7 +55,7 @@
                                         <script 
                                             data-cfasync="false" 
                                             type="text/javascript" 
-                                            src="https://app.ecwid.com/script.js?39913012&data_platform=code&data_date=2020-11-14" charset="utf-8"></script>
+                                            src="https://app.ecwid.com/script.js?39913012&data_platform=code&data_date=2020-11-22" charset="utf-8"></script>
                                         <script type="text/javascript">Ecwid.init();</script>
                                     </div>
                             </li>

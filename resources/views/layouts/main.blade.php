@@ -7,7 +7,11 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <meta name="description" content="Official website for bubble0h7_art">
+    <meta name="keywords" content="artist, illustrator, nz, prints, stickers, magnets, mousepads">
+
+    <title>bubble0h7.art shop</title>
+    <link rel="shortcut icon" type="image/png" href="{{ asset('img/favicon.png') }}"/>
 
     <!-- Scripts -->
     <script src="{{ asset('js/main.js') }}"></script>
