@@ -4,92 +4,43 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>bubble0h7.art</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
 
         <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #464647;
-                color: #f0f0f0;
-                font-family: 'Short Stack', cursive;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            h1 {
-                font-family: 'DM Mono', monospace;
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #f0f0f0;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
+        <link href="{{ asset('css/main.css') }}" rel="stylesheet">
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
+        <div class="content">
+            <div class="row">
+                <div class="col-12">
+                    <a href="{{route('home')}}"><img id="links_logo" src="{{ asset('img/logo-2020-transparent.png') }}" alt="bubble0h7"/></a>
                 </div>
-            @endif
-
-            <div class="content">
-                <h1>bubble0h7</h1>
-
-                <div class="links">
-                    <a href="{{route('shop')}}">Shop</a>
-                    <a href="{{route('portfolio')}}">Portfolio</a>
-                    <a href="https://www.instagram.com/bubble0h7_art/" target="_blank">Instagram</a>
-                    <a href="https://twitter.com/bubble0h7_art" target="_blank">Twitter</a>
-                    <a href="https://www.redbubble.com/people/bubble0h7" target="_blank">Redbubble</a>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="links">
+                        <ul id="link_nav">
+                                <li>
+                                    <a href="{{route('shop')}}" title="Shop">< <span class="hover_text_red text_white">shop</span> /></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/bubble0h7_art/" title="Instagram">< <span class="hover_text_orange text_white">instagram</span> /></a>
+                                </li>
+                                <li>
+                                     <a href="https://twitter.com/bubble0h7_art" title="Twitter">< <span class="hover_text_yellow text_white">twitter</span> /></a>
+                                </li>
+                                <li>
+                                    <a href="{{route('tipjar')}}" title="Tip Jar">< <span class="hover_text_green text_white">tip jar</span> /></a>
+                                </li>
+                                <li>
+                                    <a href="https://forms.gle/ErABnRJWtWL9Lv9L6" title="Commission Enquiry Form">< <span class="hover_text_lightblue text_white">commissions</span> /></a>
+                                </li>
+                            </ul>
+                    </div>
                 </div>
             </div>
         </div>
