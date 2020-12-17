@@ -66,7 +66,7 @@
                                 <a href="{{route('shop.category.prints')}}" title="Prints" data-catid="64743537">< <span class="hover_text_orange text_white">prints</span> /></a>
                             </li>
                             <li>
-                                <a href="{{route('shop.category.magnets')}}" title="Magnets" data-catid="64743533">< <span class="hover_text_yellow text_white">magnets</span> /></a>
+                                <a href="{{route('shop.category.mousepads')}}" title="Mousepads" data-catid="70605324">< <span class="hover_text_yellow text_white">mousepads</span> /></a>
                             </li>
                             <li>
                                 <a href="{{route('shop.category.stickers')}}" title="Stickers" data-catid="64743532">< <span class="hover_text_green text_white">stickers</span> /></a>

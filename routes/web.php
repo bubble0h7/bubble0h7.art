@@ -31,9 +31,9 @@ Route::get('/shop#!/All/c/64746322', function () {
 Route::get('/shop#!/Prints/c/64743537', function () {
     return view('shop');
 })->name('shop.category.prints');
-Route::get('/shop#!/Magnets/c/64743533', function () {
+Route::get('/shop#!/Mousepads/c/70605324', function () {
     return view('shop');
-})->name('shop.category.magnets');
+})->name('shop.category.mousepads');
 Route::get('/shop#!/Stickers/c/64743532', function () {
     return view('shop');
 })->name('shop.category.stickers');
