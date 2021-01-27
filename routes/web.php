@@ -40,9 +40,9 @@ Route::get('/shop#!/Stickers/c/64743532', function () {
 Route::get('/shop#!/Other/c/64742798', function () {
     return view('shop');
 })->name('shop.category.other');
-Route::get('/shop#!/Last-Chance/c/66208540', function () {
+Route::get('/shop#!/Sale/c/66208540', function () {
     return view('shop');
-})->name('shop.category.limited');
+})->name('shop.category.sale');
 Route::get('/shop#!/Tip/p/260682789/category=0', function () {
     return view('shop');
 })->name('tipjar');
