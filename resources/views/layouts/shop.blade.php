@@ -75,7 +75,7 @@
                                 <a href="{{route('shop.category.other')}}" title="Other" data-catid="64742798">< <span class="hover_text_lightblue text_white">other</span> /></a>
                             </li>
                             <li>
-                                <a href="{{route('shop.category.sale')}}" title="Sale" data-catid="66208540">< <span class="hover_text_purple text_white">sale</span> /></a>
+                                <a href="{{route('shop.category.sale')}}" title="Valentines Day Sale" data-catid="66208540">< <span class="hover_text_purple text_white">valentines day sale</span> /></a>
                             </li>
                         </ul>
                 </div>
