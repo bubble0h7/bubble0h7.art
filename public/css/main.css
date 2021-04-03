@@ -11,7 +11,7 @@ html, body {
 #header_logo {
     display: block;
     margin-left: auto;
-    width: 350px;
+    width: 230px;
     padding: 35px 0px;
 }
 #links_logo {
@@ -185,7 +185,7 @@ nav, footer {
 
 @media only screen and (max-width: 790px) {
     #header_logo {
-        width: 290px;
+        width: 165px;
         padding: 65px 0px;
     }
     #footer_logo {

@@ -60,22 +60,7 @@
                                     </div>
                             </li>
                             <li>
-                                <a href="{{route('shop.category.all')}}" title="All Products" data-catid="64746322">< <span class="hover_text_red text_white">all products</span> /></a>
-                            </li>
-                            <li>
-                                <a href="{{route('shop.category.prints')}}" title="Prints" data-catid="64743537">< <span class="hover_text_orange text_white">prints</span> /></a>
-                            </li>
-                            <li>
-                                <a href="{{route('shop.category.mousepads')}}" title="Mousepads" data-catid="70605324">< <span class="hover_text_yellow text_white">mousepads</span> /></a>
-                            </li>
-                            <li>
-                                <a href="{{route('shop.category.stickers')}}" title="Stickers" data-catid="64743532">< <span class="hover_text_green text_white">stickers</span> /></a>
-                            </li>
-                            <li>
-                                <a href="{{route('shop.category.other')}}" title="Other" data-catid="64742798">< <span class="hover_text_lightblue text_white">other</span> /></a>
-                            </li>
-                            <li>
-                                <a href="{{route('shop.category.sale')}}" title="Valentines Day Sale" data-catid="66208540">< <span class="hover_text_purple text_white">valentines day sale</span> /></a>
+                                <a href="{{route('shop.category.all')}}" title="View All Loot" data-catid="64746322">< <span class="hover_text_red text_white">view all loot</span> /></a>
                             </li>
                         </ul>
                 </div>
