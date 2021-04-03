@@ -16,7 +16,7 @@
 
         <!-- Styles -->
         <link href="{{ asset('css/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
-        <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/main.css') }}?{{ time() }}" rel="stylesheet">
 
         <!-- Scripts -->
         <script type="text/javascript" src="{{ asset('js/jquery/jquery.min.js') }}"></script>
